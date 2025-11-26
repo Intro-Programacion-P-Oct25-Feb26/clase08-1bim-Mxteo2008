@@ -37,10 +37,10 @@ public class Ejemplo03 {
                 bandera = false;
             }
 
-        } while (bandera); // (bandera==true)
+        } while (bandera); // 
         
         cadenaFinal = String.format("%s\n", cadenaFinal);
-        cadenaFinal = String.format("%s\nLa suma es%.2f", cadenaFinal, sumaNotas);
+        cadenaFinal = String.format("%s\nLa suma es %.2f", cadenaFinal, sumaNotas);
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
     }
 }
